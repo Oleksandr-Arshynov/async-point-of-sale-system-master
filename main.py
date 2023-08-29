@@ -94,7 +94,7 @@ def purchase_order(total):
 
 
 async def main():
-    print("Welcome to the ProgrammingExpert Burger Bar!")
+    print("Welcome to the Burger Bar!")
     inventory = Inventory()
 
     num_items_task = asyncio.create_task(inventory.get_number_of_items())
